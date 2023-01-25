@@ -4,7 +4,7 @@ header {
     padding-top: 10px;
   
 }
-article{
+.name-block{
     display: block;
     max-width: fit-content;;
 }
@@ -16,7 +16,7 @@ article{
     font-size: 30px;
     font-weight: bolder;
 }
-ul{
+nav>ul{
     text-align: right;
     padding: 20px;
     position: absolute;
@@ -24,7 +24,7 @@ ul{
     right: 98px;
     font-size: larger
 }
-li {
+nav>ul>li {
     display: inline;
     flex-direction: row;
     color: rgb(112, 211, 211);
@@ -34,4 +34,7 @@ li {
     background-image:url("../Images/Portfolio-backdrop.jpg");
     background-size: 100%;
     height: 250px;
+}
+.contact-me{
+    
 }
