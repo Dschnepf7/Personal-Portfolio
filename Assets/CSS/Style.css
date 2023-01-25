@@ -24,7 +24,7 @@ nav>ul{
     right: 30px;
     font-size: larger
 }
-nav>ul>li {
+nav>ul>a {
     display: inline-flex;
     flex-direction: row;
     color: rgb(112, 211, 211);
@@ -38,7 +38,7 @@ nav>ul>li {
     height: 250px;
     display: flex;
 }
-.contact-me{
+#contact-me{
     display: flex;
     max-width: fit-content; 
     border-right: rgb(33, 33, 97) solid 3px;
@@ -64,13 +64,13 @@ nav>ul>li {
     border-bottom: solid rgb(33, 33, 97) 3px;
     
 }
-.about-me{
+#about-me{
     display: flex;
     padding: 20px;
     position: relative;
     right: -17px;
 }
-.about-me>h2{
+#about-me>h2{
     display: flex;
     max-width: fit-content; 
     font-size: 50px;
@@ -81,17 +81,17 @@ nav>ul>li {
     text-align: right;
 }
 
-.about-me>p{
+#about-me>p{
     border-left: rgb(33, 33, 97) solid 3px;
     padding: 20px;
     position: relative;
     right: -17px;
 }
-.work{
+#work{
     display: flex;
     margin-bottom: 145px;
 }
-.work>h2{
+#work>h2{
     display: flex;
     max-width: fit-content;
     font-size: 50px;
@@ -118,7 +118,7 @@ nav>ul>li {
     width: 394px;
     position: relative;
     top: 217px;
-    right: 675px;
+    right: 687px;
     display: flex;
     border: 3px rgb(33, 33, 97) solid;
     border-radius: 20px;
@@ -128,7 +128,7 @@ nav>ul>li {
     width: 394px;
     position: relative;
     top: 217px;
-    right: 655px;
+    right: 679px;
     display: flex;  
     border: 3px rgb(33, 33, 97) solid;
     border-radius: 20px;
@@ -138,7 +138,7 @@ nav>ul>li {
     width: 394px;
     position: relative;
     top: 327px;
-    right: 1440px;
+    right: 1487px;
     display: flex;  
     border: 3px rgb(33, 33, 97) solid;
     border-radius: 20px;
@@ -148,7 +148,7 @@ nav>ul>li {
     width: 394px;
     position: relative;
     top: 328px;
-    right: 1419px;
+    right: 1478px;
     display: flex;  
     border: 3px rgb(33, 33, 97) solid;
     border-radius: 20px;
