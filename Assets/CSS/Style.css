@@ -6,7 +6,7 @@ header {
 }
 .name-block{
     display: block;
-    max-width: fit-content;;
+    max-width: fit-content;
 }
     
  h1 {
@@ -21,14 +21,16 @@ nav>ul{
     padding: 20px;
     position: absolute;
     top: 45px;
-    right: 98px;
+    right: 30px;
     font-size: larger
 }
 nav>ul>li {
     display: inline;
     flex-direction: row;
     color: rgb(112, 211, 211);
-    text-decoration: underline;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: solid rgb(112, 211, 211) 3px;
 }
 .background-image{
     background-image:url("../Images/Portfolio-backdrop.jpg");
@@ -36,5 +38,29 @@ nav>ul>li {
     height: 250px;
 }
 .contact-me{
+    display: block;
+    max-width: fit-content; 
+    border-right: rgb(33, 33, 97) solid 3px;
+    position: relative;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-right: 15px;
+    height: 120px;
+    width: 181px;
+    text-align: right;
+}
+.contact-links>ul{
+    text-align: right;
+    padding: 20px;
+    position: absolute;
+    top: 405px;
+    right: 86px;
+    font-size: large;
+}
+.contact-links>ul>li{
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: solid rgb(33, 33, 97) 3px;
     
 }
