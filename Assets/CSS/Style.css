@@ -43,17 +43,16 @@ nav>ul>li {
     max-width: fit-content; 
     border-right: rgb(33, 33, 97) solid 3px;
     position: relative;
+    left: -40px;
     font-size: 50px;
-    padding-top: 15px;
     padding-right: 15px;
-    height: 120px;
+    padding-left: 38px;
     width: 181px;
     text-align: right;
 }
 .contact-links>ul{
     text-align: right;
     padding: 20px;
-    position: absolute;
     top: 405px;
     right: 86px;
     font-size: large;
@@ -64,4 +63,72 @@ nav>ul>li {
     padding-right: 25px;
     border-bottom: solid rgb(33, 33, 97) 3px;
     
+}
+.about-me{
+    display: flex;
+    padding: 20px;
+    position: relative;
+    right: -17px;
+}
+.about-me>h2{
+    display: flex;
+    max-width: fit-content; 
+    font-size: 50px;
+    padding-top: 15px;
+    padding-right: 15px;
+    height: 120px;
+    width: 181px;
+    text-align: right;
+}
+
+.about-me>p{
+    border-left: rgb(33, 33, 97) solid 3px;
+    padding: 20px;
+    position: relative;
+    right: -17px;
+}
+.work{
+    display:flex;
+}
+.work>h2{
+    display: flex;
+    max-width: fit-content;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-right: 15px;
+    height: 120px;
+    width: 181px;
+    text-align: right;
+    border-right: solid 3px rgb(33, 33, 97);
+    position: relative;
+    left: 69px;
+}
+.big-image{
+    border: solid 3px rgb(33, 33, 97);;
+    height: 200px;
+    width: 800px;
+    display: flex;
+    position: relative;
+    left: 120px;
+    border-radius: 20px;
+}
+.picture1{
+    height: 94px;
+    width: 394px;
+    position: relative;
+    top: 217px;
+    right: 675px;
+    display: flex;
+    border: 3px rgb(33, 33, 97) solid;
+    border-radius: 20px;
+}
+.picture2{
+    height: 94px;
+    width: 394px;
+    position: relative;
+    top: 217px;
+    right: 655px;
+    display: flex;  
+    border: 3px rgb(33, 33, 97) solid;
+    border-radius: 20px;
 }
