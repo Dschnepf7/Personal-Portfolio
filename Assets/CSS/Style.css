@@ -1,0 +1,32 @@
+header {
+    background-color: rgb(65, 64, 64);
+    padding-bottom: 10px;
+    padding-top: 10px;
+  
+}
+article{
+    display: block;
+    max-width: fit-content;;
+}
+    
+ h1 {
+    background-color: rgb(112, 211, 211);
+    color: rgb(65, 64, 64);
+    padding: 27px 114px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+ul{
+    text-align: right;
+    padding: 20px;
+    position: absolute;
+    top: 45px;
+    right: 98px;
+    font-size: larger
+}
+li {
+    display: inline;
+    flex-direction: row;
+    color: rgb(112, 211, 211);
+    text-decoration: underline;
+}
