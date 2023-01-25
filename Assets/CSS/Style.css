@@ -5,7 +5,7 @@ header {
   
 }
 .name-block{
-    display: block;
+    display: flex;
     max-width: fit-content;
 }
     
@@ -25,7 +25,7 @@ nav>ul{
     font-size: larger
 }
 nav>ul>li {
-    display: inline;
+    display: inline-flex;
     flex-direction: row;
     color: rgb(112, 211, 211);
     padding-right: 10px;
@@ -36,9 +36,10 @@ nav>ul>li {
     background-image:url("../Images/Portfolio-backdrop.jpg");
     background-size: 100%;
     height: 250px;
+    display: flex;
 }
 .contact-me{
-    display: block;
+    display: flex;
     max-width: fit-content; 
     border-right: rgb(33, 33, 97) solid 3px;
     position: relative;
