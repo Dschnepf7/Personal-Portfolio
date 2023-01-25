@@ -88,7 +88,8 @@ nav>ul>li {
     right: -17px;
 }
 .work{
-    display:flex;
+    display: flex;
+    margin-bottom: 145px;
 }
 .work>h2{
     display: flex;
@@ -131,4 +132,28 @@ nav>ul>li {
     display: flex;  
     border: 3px rgb(33, 33, 97) solid;
     border-radius: 20px;
+}
+.picture3{
+    height: 94px;
+    width: 394px;
+    position: relative;
+    top: 327px;
+    right: 1440px;
+    display: flex;  
+    border: 3px rgb(33, 33, 97) solid;
+    border-radius: 20px;
+}
+.picture4{
+    height: 94px;
+    width: 394px;
+    position: relative;
+    top: 328px;
+    right: 1419px;
+    display: flex;  
+    border: 3px rgb(33, 33, 97) solid;
+    border-radius: 20px;
+}
+footer{
+    display: flex;
+    margin-top: 253px;
 }
