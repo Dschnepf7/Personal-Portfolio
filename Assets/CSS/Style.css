@@ -59,8 +59,8 @@ nav>ul>a {
 }
 .contact-links>ul>li{
     display: inline;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 85px;
+    padding-right: 85px;
     border-bottom: solid rgb(33, 33, 97) 3px;
     
 }
@@ -107,10 +107,10 @@ nav>ul>a {
 .big-image{
     border: solid 3px rgb(33, 33, 97);;
     height: 200px;
-    width: 800px;
+    width: 1000px;
     display: flex;
     position: relative;
-    left: 120px;
+    left: 250px;
     border-radius: 20px;
 }
 .picture1{
@@ -128,7 +128,7 @@ nav>ul>a {
     width: 394px;
     position: relative;
     top: 217px;
-    right: 679px;
+    right: 605px;
     display: flex;  
     border: 3px rgb(33, 33, 97) solid;
     border-radius: 20px;
@@ -148,7 +148,7 @@ nav>ul>a {
     width: 394px;
     position: relative;
     top: 328px;
-    right: 1478px;
+    right: 1406px;
     display: flex;  
     border: 3px rgb(33, 33, 97) solid;
     border-radius: 20px;
